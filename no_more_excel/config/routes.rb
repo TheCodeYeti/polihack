@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'service_providers/new'
+
+  get 'service_providers/create'
+
+  get 'service_providers/edit'
+
+  get 'service_providers/update'
+
+  get 'service_providers/show'
+
+  get 'service_providers/destroy'
+
+  get 'service_providers/index'
+
   get 'users/new'
 
   get 'users/create'
